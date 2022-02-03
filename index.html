@@ -7,15 +7,278 @@
     <title>Hot -E-Commerce</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="./font-awesome-pro.js"></script>
     <!-- css cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <h1>hello</h1>
 
-    <section class="section" style="font-size: 40px;">
-        learn with sumit    
-    </section>
+    <div class="container">
+
+        <header>
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- nav ends -->
+
+            <!-- carousel starts ) -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h2>Macbook Pro</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consequatur magnam, eos necessitatibus animi neque ab nam laudantium velit dolor qui.</p>
+                                <button class="btn btn-dark buy-now-btn">Buy Now -></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="slider-1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h2>Alexa 7G</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempora pariatur sit alias excepturi aut deserunt blanditiis et, facilis repudiandae eligendi debitis reiciendis iusto culpa!</p>
+                                <button class="btn btn-dark buy-now-btn">Buy Now -></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="slider-2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h2>Sound Box 69</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus alias sunt ea ipsa distinctio fugit eius quibusdam, quidem iusto neque, et obcaecati</p>
+                                <button class="btn btn-dark buy-now-btn">Buy Now -></button>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="slider-3">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  <br>
+
+        </header>
+
+        <main>
+            <!-- Smartphone starts -->
+            <div class="name"><h1>Smartphone</h1></div>
+            <section class="row text-center">
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/phone/phone-1.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>Redmi Plus Pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$690</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/phone/phone-2.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>iPhone 11 Pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$420</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/phone/phone-3.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>Samsung Note 10+</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$3869</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+            </section>  <br><br>
+            <!-- Smart Phone ends -->
+
+            <!-- Laptop starts -->
+            <div class="name"><h1>Laptop</h1></div>
+            <div class="row text-center">
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/laptop/product-1.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>Asus VivaBook</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$1690</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/laptop/product-2.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>Razar Blade 15</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$969</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card box">
+                        <img src="images/laptop/product-3.png" class="card-img-top" alt="">
+                        <br>
+                        <h3>Xiaomi Notebook Pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates.</p>
+                        <h3>$3869</h3>
+                        <button class="btn btn-dark buy-now-btn btn-phn">Buy Now -></button>
+                    </div>
+                </div>
+
+            </div>  <br><br>
+            <!-- Laptop ends -->
+
+        </main>
+
+        <!-- Categories starts -->
+        
+        <div class="container" id="categories">
+            <h3 class="categories">Categories</h3>
+            <hr id="cat_hr" />
+            <div class="row cat align-items-center">
+                <div class="col-sm-3">
+                    <div class="card cat_bag">
+                        <img src="images/categories/bag.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Bag</h5>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-sm-3">
+                        <div class="card cat_beauty">
+                            <img src="images/categories/perfume.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Beauty</h5>
+                            </div>
+                        </div>
+                        <div class="card cat_shoe">
+                            <img src="images/categories/shoe.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Shoe</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 cat_busket">
+                        <img src="images/categories/pale-order.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div> <br> <hr />
+            
+            <!-- Categories ends -->
+            
+        <footer>
+            <!-- links foot -->
+            <div class="container footer">
+                <div class="row">
+                    <div class="col-sm-4 d-flex flex-column bd-highlight mb-3">
+                        <h4>Useful Links</h4>
+                        <a href="#">FAQ</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Refund Policy</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Contact Info</h4>
+                        <p>Address: Dhaka BD.</p>
+                        <p>Phone: +8801*********</p>
+                        <p>Email: arafmushfiq@gmail.com</p>
+                        <p>Website: <a href="https://mi-araf.github.io/e-commerce-hot-bs5-3/">https://mi-araf.github.io/e-commerce-hot-bs5-3/</a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Follow Us</h4>
+                        <div class="social-icon-section">
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-facebook"></a>
+                            </div>
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-twitter"></a>
+                            </div>
+                            <div class="social-icon">
+                                <a href="https://github.com/mi-araf" class="fa fa-github"></a>
+                            </div>
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </footer>
+
+    </div>
+
 
 
 
